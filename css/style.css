@@ -1,0 +1,43 @@
+@import "_banner.css";
+@import "_about.css";
+@import "_navbar.css";
+@import "_skills.css";
+@import "_languages.css";
+@import "_projects.css";
+
+
+.page-section {
+ display: center;
+  background-color: none;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  overflow: auto;
+
+}
+
+
+
+section {
+  display: block;
+}
+
+
+
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+hr.divider {
+    max-width: 10rem;
+    border-width: 0.2rem;
+    border-color: green;
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+  }

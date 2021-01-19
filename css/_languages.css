@@ -1,0 +1,27 @@
+.languages {
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+align-items: center
+}
+
+grid-item {
+  position: relative;
+  text-align: center;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+  justify-content: center;
+  }
+
+
+
+.languages img {
+  justify-content: center;
+}
+
+
+

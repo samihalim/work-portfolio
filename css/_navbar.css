@@ -1,0 +1,40 @@
+#mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+    }
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5)
+}
+
+
+
+@media (min-width: 992px){
+#mainNav {
+    box-shadow: none;
+    background-color: transparent;
+}
+}
+
+
+@media (min-width: 992px){
+#mainNav.navbar-scrolled {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    height: 3rem;
+    color: rgba(0,0,0,.5);
+}
+
+}
+

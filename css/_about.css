@@ -1,0 +1,14 @@
+.about {
+  display: center;
+  background-color: lightgrey;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  height: 50vh;
+  color: white;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
