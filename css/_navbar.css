@@ -2,8 +2,7 @@
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
     transition: background-color 0.2s ease;
-
-    }
+  }
 
 .fixed-top {
     position: fixed;
@@ -13,14 +12,16 @@
     z-index: 1030;
 }
 
-
-
-
-
-.navbar-scrolled {
-    color: rgba(0,0,0,.5) !important;
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #18251b !important;
 }
 
+
+
+
+.navbar-nav a:hover{
+  color: black;
+}
 
 @media (min-width: 992px){
 #mainNav {
@@ -32,7 +33,7 @@
 
 @media (min-width: 992px){
 #mainNav.navbar-scrolled {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
     background-color: #fff;
     height: 3rem;
   }
@@ -41,6 +42,6 @@
 
 @media (max-width: 528px) {
   .navbar-nav a {
-   color: black !important;
+   color: rgba(0, 0, 0, 0.5); !important;
   }
 }
