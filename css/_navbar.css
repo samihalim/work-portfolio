@@ -41,7 +41,8 @@
 
 
 @media (max-width: 528px) {
+
   .navbar-nav a {
-   color: rgba(0, 0, 0, 0.5); !important;
+   color: rgba(0, 0, 0, 0.5) !important;
   }
 }
