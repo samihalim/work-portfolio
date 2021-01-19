@@ -33,6 +33,13 @@
     $(".navbar-collapse").collapse("hide");
   });
 
+
+
+  $(window).scroll(function(){
+    $(".nav-item").removeClass("active");
+    $(".active").parent().addClass("active");
+  })
+
   // Activate scrollspy to add active class to navbar items on scroll
   $("body").scrollspy({
     target: "#mainNav",
@@ -43,8 +50,14 @@
   var navbarCollapse = function () {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-scrolled");
+      $(".nav-link").css('color', 'rgba(0,0,0,.5)', 'transition' , 'color 0.2s ease');
+
+
     } else {
       $("#mainNav").removeClass("navbar-scrolled");
+      $(".nav-link").css('color', 'white', 'transition' , 'color 0.2s ease');
+
+
     }
   };
   // Collapse now if page is not at top

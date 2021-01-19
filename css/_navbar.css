@@ -2,7 +2,7 @@
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
     transition: background-color 0.2s ease;
-    }
+  }
 
 .fixed-top {
     position: fixed;
@@ -12,29 +12,36 @@
     z-index: 1030;
 }
 
-
-
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.5)
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #18251b !important;
 }
 
 
+
+
+.navbar-nav a:hover{
+  color: black;
+}
 
 @media (min-width: 992px){
 #mainNav {
     box-shadow: none;
     background-color: transparent;
-}
+  }
 }
 
 
 @media (min-width: 992px){
 #mainNav.navbar-scrolled {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .15);
     background-color: #fff;
     height: 3rem;
-    color: rgba(0,0,0,.5);
+  }
 }
 
-}
 
+@media (max-width: 528px) {
+  .navbar-nav a {
+   color: rgba(0, 0, 0, 0.5); !important;
+  }
+}
