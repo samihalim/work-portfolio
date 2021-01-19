@@ -43,8 +43,10 @@
   var navbarCollapse = function () {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-scrolled");
+      $(".nav-link").css('color', 'black', 'transition' , 'color 0.2s ease');
     } else {
       $("#mainNav").removeClass("navbar-scrolled");
+      $(".nav-link").css('color', 'white', 'transition' , 'color 0.2s ease');
     }
   };
   // Collapse now if page is not at top
