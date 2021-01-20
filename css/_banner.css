@@ -8,30 +8,60 @@
 
 .banner h1 {
   margin: 0;
-  color: white;
+  color: #f4f7f5;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
   font-weight: bold;
   margin-bottom: 1rem;
+  font-family: 'Spectral', serif !important;
 }
 
 .banner p {
   font-size: 20px;
-  color: white;
+  color: #f4f7f5;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 
 .avatar {
-    background-image: url(../assets/image/sami.png);
+    background-image: url(../assets/image/sami1.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     margin: auto;
     margin-bottom: 1rem;
 
   }
+
+
+
+@media (max-width: 1024px) {
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+  .banner h1 span{
+    font-size: 4rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+  .banner h1 span{
+    font-size: 3rem !important;
+  }
+}
+
+@media (max-width: 528px) {
+  .banner h1 {
+    font-size: 1.5rem;
+  }
+  .banner h1 span{
+    font-size: 2rem !important;
+  }
+}
+

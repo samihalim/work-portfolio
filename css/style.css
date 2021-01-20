@@ -4,7 +4,8 @@
 @import "_skills.css";
 @import "_languages.css";
 @import "_projects.css";
-
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 .page-section {
  display: center;
@@ -12,6 +13,19 @@
   padding-top: 10%;
   padding-bottom: 3%;
   overflow: auto;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+h1 span, h2 {
+font-family: 'Spectral', serif !important;
 
 }
 
