@@ -9,10 +9,14 @@ text-decoration: none;
 }
 
 .card_category {
-  font-size: 28px;
+  font-size: 1.55rem;
   color: black
 }
 
+.experience {
+  margin-top: 1.5rem;
+  color: black;
+}
 
 .card-img {
   height: 10rem;
@@ -37,19 +41,14 @@ text-decoration: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
-
 }
 
 
 .cards_wrap .card_item {
   width: 30%;
   margin: 1rem;
-  border: 1px solid #dee2e6!important
-}
-
-.cards_wrap .card_inner {
   background: #f4f7f5;
+  border: 1px solid #dee2e6!important
 }
 
 .cards_wrap .card_top {
@@ -62,6 +61,10 @@ text-decoration: none;
 .cards_wrap .card_bottom {
   padding: 15px;
   color: black;
+}
+
+.card-item{
+  background: #f4f7f5;
 }
 
 .cards_wrap .card_bottom .card_category {
@@ -88,6 +91,7 @@ text-decoration: none;
   .cards_wrap .card_item {
     width: 33.3%;
     height: auto;
+    background: #f4f7f5;
   }
 }
 
